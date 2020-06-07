@@ -60,7 +60,7 @@ function reiniciarJogo() {
         reiniciarParas[i].textContent = '';
     }
 
-    botaoReinicio.parentNode.removeChild('botaoReinicio')
+    botaoReinicio.parentNode.removeChild(botaoReinicio);
 
     campoPalpite.disabled = false;
     envioPalpite.disabled = false;
